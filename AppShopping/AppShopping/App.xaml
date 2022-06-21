@@ -44,6 +44,7 @@
                 <Setter Property="FontFamily" Value="MontserratRegular" />
                 <Setter Property="FontSize" Value="12" />
                 <Setter Property="TextColor" Value="{StaticResource Black}" />
+                <Setter Property="Margin" Value="10,0,0,0" />
             </Style>
 
             <Style TargetType="Label" x:Key="MenuHeaderLabel">
@@ -108,6 +109,16 @@
                 <Setter Property="BorderColor" Value="{StaticResource PrimaryColor}" />
                 <Setter Property="BorderWidth" Value="1" />
                 <Setter Property="CornerRadius" Value="5" />
+            </Style>
+
+            <Style TargetType="Entry" x:Key="EntryPayment">
+                <Setter Property="FontFamily" Value="MontserratRegular" />
+                <Setter Property="FontSize" Value="12" />
+                <Setter Property="TextColor" Value="{StaticResource Black}" />
+                <Setter Property="HeightRequest" Value="50" />
+                <Setter Property="VerticalOptions" Value="Start" />
+                <Setter Property="PlaceholderColor" Value="LightGray"/>
+                <Setter Property="Margin" Value="10,0,0,0" />
             </Style>
         </ResourceDictionary>
     </Application.Resources>

@@ -14,7 +14,7 @@ namespace AppShopping.Services
             new Ticket() { Number = "109703757667", StartDate = new DateTime(2020, 10, 20, 16, 02, 32), EndDate = new DateTime(2020, 10, 20, 18, 02, 32), Price = 6.20m, Status = Libraries.Enums.TicketStatus.paid },
             new Ticket() { Number = "109703337667", StartDate = new DateTime(2020, 10, 22, 10, 02, 32), EndDate = new DateTime(2020, 10, 22, 12, 02, 32), Price = 12.20m, Status = Libraries.Enums.TicketStatus.paid },
             new Ticket() { Number = "209883557324", StartDate = new DateTime(2020, 10, 20, 18, 56, 42), EndDate = new DateTime(2020, 10, 22, 12, 02, 32), Price = 12.20m, Status = Libraries.Enums.TicketStatus.pending },
-            new Ticket() { Number = "359645757789", StartDate = new DateTime(2020, 10, 20, 20, 32, 01), EndDate = new DateTime(2020, 10, 22, 12, 02, 32), Price = 12.20m, Status = Libraries.Enums.TicketStatus.pending }
+            new Ticket() { Number = "359645757789", StartDate = new DateTime(2022, 06, 21, 10, 10, 01), EndDate = new DateTime(2020, 10, 22, 12, 02, 32), Price = 12.20m, Status = Libraries.Enums.TicketStatus.pending }
         };
         public List<Ticket> GetTicketsPaid()
         {
@@ -22,7 +22,7 @@ namespace AppShopping.Services
         }
         public Ticket GetTicketInfo(string number)
         {
-            var endDate = new DateTime(2020, 10, 20, 22, 00, 00);
+            var endDate = DateTime.Now;
 
             var ticket = fakeTickets.FirstOrDefault(a => a.Number == number);
 
@@ -33,14 +33,14 @@ namespace AppShopping.Services
                 throw new Exception("Ticket já pago!");
 
             ticket.EndDate = endDate;
-            ticket.Price = 6.00m;
-
+            ticket.Price = Convert.ToDecimal(PriceCalculator(ticket));
             return ticket;
         }
 
-        internal void getTicketInfo(string ticketNumber)
+        private double PriceCalculator(Ticket ticket)
         {
-            throw new NotImplementedException();
+            TimeSpan dif = ticket.EndDate.Value - ticket.StartDate;
+            return Math.Round(dif.TotalMinutes * 0.03, 2);
         }
     }
 }

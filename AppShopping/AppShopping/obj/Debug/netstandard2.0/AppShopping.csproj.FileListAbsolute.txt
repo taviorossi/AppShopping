@@ -1,6 +1,3 @@
-C:\Dev\AppShopping\AppShopping\AppShopping\bin\Debug\netstandard2.0\AppShopping.deps.json
-C:\Dev\AppShopping\AppShopping\AppShopping\bin\Debug\netstandard2.0\AppShopping.dll
-C:\Dev\AppShopping\AppShopping\AppShopping\bin\Debug\netstandard2.0\AppShopping.pdb
 C:\Dev\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\AppShopping.csproj.AssemblyReference.cache
 C:\Dev\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\AppShopping.GeneratedMSBuildEditorConfig.editorconfig
 C:\Dev\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\App.xaml.g.cs
@@ -10,13 +7,17 @@ C:\Dev\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\Views\Establ
 C:\Dev\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\Views\FilmDetail.xaml.g.cs
 C:\Dev\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\Views\Restaurants.xaml.g.cs
 C:\Dev\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\Views\Stores.xaml.g.cs
+C:\Dev\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\Views\TicketPaidHistory.xaml.g.cs
+C:\Dev\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\Views\TicketPayment.xaml.g.cs
+C:\Dev\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\Views\TicketScan.xaml.g.cs
 C:\Dev\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\AppShopping.AssemblyInfoInputs.cache
 C:\Dev\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\AppShopping.AssemblyInfo.cs
 C:\Dev\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\AppShopping.csproj.CoreCompileInputs.cache
+C:\Dev\AppShopping\AppShopping\AppShopping\bin\Debug\netstandard2.0\AppShopping.deps.json
+C:\Dev\AppShopping\AppShopping\AppShopping\bin\Debug\netstandard2.0\AppShopping.dll
+C:\Dev\AppShopping\AppShopping\AppShopping\bin\Debug\netstandard2.0\AppShopping.pdb
 C:\Dev\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Dev\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\AppShopping.dll
 C:\Dev\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\refint\AppShopping.dll
 C:\Dev\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\AppShopping.pdb
 C:\Dev\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\ref\AppShopping.dll
-C:\Dev\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\Views\TicketScan.xaml.g.cs
-C:\Dev\AppShopping\AppShopping\AppShopping\obj\Debug\netstandard2.0\Views\TicketPaidHistory.xaml.g.cs

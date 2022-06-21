@@ -50,6 +50,10 @@
               "target": "Package",
               "version": "[5.0.0.2196, )"
             },
+            "Xamarin.Forms.PancakeView": {
+              "target": "Package",
+              "version": "[2.3.0.759, )"
+            },
             "ZXing.Net.Mobile": {
               "target": "Package",
               "version": "[2.4.1, )"
@@ -138,6 +142,10 @@
             "Xamarin.Forms.MaskedEntry": {
               "target": "Package",
               "version": "[1.1.0, )"
+            },
+            "Xamarin.Forms.PancakeView": {
+              "target": "Package",
+              "version": "[2.3.0.759, )"
             },
             "ZXing.Net.Mobile": {
               "target": "Package",

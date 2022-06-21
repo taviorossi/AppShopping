@@ -23,7 +23,7 @@
             <Label Text="{Binding Film.Name}" Style="{StaticResource TitleName}" />
             <Grid ColumnDefinitions="*, 70" RowDefinitions="50" Margin="0, 15">
                 <Frame>
-                    <control:MaskedEntry Text="{Binding TicketNumber}" Mask="XXX XXX XXX XXX" Keyboard="Numeric" Placeholder="Escanear Ticket" PlaceholderColor="LightGray">
+                    <control:MaskedEntry Text="{Binding TicketNumber}" Mask="XXX XXX XXX XXX" Keyboard="Numeric" Placeholder="Escanear Ticket" TextColor="Black" PlaceholderColor="LightGray">
                         <control:MaskedEntry.Behaviors>
                             <behaviors:EventToCommandBehavior EventName="TextChanged" Command="{Binding TicketTextChangedCommand}" />
                         </control:MaskedEntry.Behaviors>
